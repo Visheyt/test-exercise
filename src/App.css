@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.review__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  align-items: center;
+  gap: 10px;
+}
+.review__form input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 20px;
+  padding: 3px;
+  width: 320px;
+}
+
+.review__form textarea {
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 50px;
+  padding: 3px;
+  width: 320px;
+}
+.review__container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(205, 205, 205);
+}
+@media (max-width: 550px) {
+  .review__container {
+    flex-direction: column;
+  }
+  .review__block {
+    min-width: 200px;
+  }
+}

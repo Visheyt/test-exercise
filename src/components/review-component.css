@@ -1,0 +1,33 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.profile__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgb(193, 193, 193);
+  width: 35px;
+  height: 35px;
+  background-color: rgb(193, 193, 193);
+  font-weight: 900;
+}
+.review__block {
+  text-align: start;
+  min-width: 320px;
+}
+@media (max-width: 550px) {
+  .review__block {
+    min-width: 220px;
+  }
+}

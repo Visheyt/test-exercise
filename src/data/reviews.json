@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Petya",
+      "text": "This is Petya review. This is good review"
+    },
+    {
+      "id": "2",
+      "name": "Vasya",
+      "text": "This is Vasya review. This is very good review"
+    },
+    {
+      "id": "3",
+      "name": "Alex",
+      "text": "This is Alex review. This is best review"
+    }
+  ]
+}
